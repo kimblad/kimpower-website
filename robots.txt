@@ -1,0 +1,11 @@
+# KimPower Robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://www.kimpower.se/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
